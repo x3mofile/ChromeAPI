@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace x3.Chrome
+﻿namespace x3.Chrome.ContentScript
 {
     public class Null_ChromeRuntime:IChromeRuntime
     {
@@ -15,14 +9,6 @@ namespace x3.Chrome
     }
 
 
-
-    public interface IChromeRuntime
-    {
-        void SendCreateNewInactiveTabMessage(string url);
-
-
-    }
-
     public abstract class AbstractChromeRuntime:IChromeRuntime
     {
         public void SendCreateNewInactiveTabMessage(string url)
@@ -31,7 +17,13 @@ namespace x3.Chrome
         }
 
         protected abstract void SendCreateNewInactiveTabMessage(CreateNewInactiveTabMessage createNewInactiveTabMessage);
+        
 
+    }
+
+    public interface IChromeRuntime
+    {
+        void SendCreateNewInactiveTabMessage(string url);
 
 
     }
