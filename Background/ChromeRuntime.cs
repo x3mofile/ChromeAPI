@@ -2,10 +2,6 @@
 
 namespace x3.Chrome.Background
 {
-
-    
-
-
     public abstract class AbstractChromeRuntime:IChromeRuntime
     {
         public abstract void StartListeningToRuntimeMessages();
