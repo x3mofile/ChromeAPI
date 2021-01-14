@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ChromeRuntime.cs" />
     <Compile Include="ChromeRuntimeMessagesHandler.cs" />
+    <Compile Include="ChromeRuntimeMessagesHandler_Application.cs" />
     <Compile Include="ChromeTabs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Background", "Background\Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentScript", "ContentScript\ContentScript.csproj", "{1A95EB5B-CCFB-4516-8E83-96529C37E186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedTests", "SharedTests\SharedTests.csproj", "{402809E2-FF8E-481D-87B1-67697D2E1C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedTests", "SharedTests\SharedTests.csproj", "{402809E2-FF8E-481D-87B1-67697D2E1C38}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B120A1A-34DC-4C6D-B656-16763DD5C79D}"
 EndProject
